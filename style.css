@@ -1,0 +1,117 @@
+/* General Css Starts */
+h1, h2, h3, h4, h5, h6 {
+	font-family:'Poppins', sans-serif;
+}
+h2 {
+	color:#000;
+}
+h6 {
+	color:#ff5a3c;
+	font-weight:600;
+}
+p {
+	color:#77838f;
+}
+.w-btn {
+	padding:12px 25px;
+	border:none;
+	cursor:pointer;
+	font-family:'Poppins', sans-serif;
+	font-size:17px;
+}
+/* General Css Ends */
+
+/* Navbar and Banner Starts */
+.w-main-bnr {
+	background-image:linear-gradient(-120deg, #ef1829, #fea600);
+}
+.navbar-dark .navbar-nav .w-link {
+    color:#fff;
+}
+/* Navbar Starts */
+.w-logo {
+	width:80%;
+}
+
+/* Navbar Ends */
+	
+/* Banner Starts */
+.w-bnr {
+	background: url("images/bnr-img.png") no-repeat right center;
+	padding:126px 0;
+}
+.bnr-heading {
+	color:#422cd3;
+}
+
+.w-btn-v1 {
+	background:#f86d10;
+}
+.w-btn-v1:hover {
+	background:#f4451c;
+}
+.w-btn-v2 {
+	background:transparent;
+}
+/* Banner Ends */
+/* Navbar and Banner Ends */
+
+/* Expertise Section Starts */
+.w-expertise {
+	background:#f6f7f8;
+}
+/* Expertise Section Ends */
+
+/* Featured Projects Section Starts */
+.w-featured {
+	background:#ff5a3c;
+}
+.w-featured h6 {
+	color:rgba(255, 255, 255, 0.5);
+}
+.w-btn-v3 {
+	background:#fff;
+	color:#000;
+}
+.w-btn-v3:hover {
+	background:#00a86b;
+	color:#fff;
+}
+.w-btn-v4 {
+	background:#00a86b;
+	color:#fff;
+}
+.w-btn-v4:hover {
+	background:#fff;
+	color:#000;
+}
+/* Featured Projects Section Ends */
+
+/* Footer Starts */
+.footer {
+	background:#000;
+}
+input[type=email] {
+	width:80%;
+	border:none;
+	padding:5px 20px;
+}
+.w-form-btn {
+	margin-left:-5px;
+	padding:5px;
+}
+/* Footer Starts */
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+	.w-bnr {
+	background: none;
+}
+}
